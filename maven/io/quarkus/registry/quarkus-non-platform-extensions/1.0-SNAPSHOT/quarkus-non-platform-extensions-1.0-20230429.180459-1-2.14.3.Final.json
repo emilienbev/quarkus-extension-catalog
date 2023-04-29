@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -1346,7 +1346,7 @@
     },
     "artifact" : "io.quarkiverse.loggingjson:quarkus-logging-json::jar:3.0.0"
   }, {
-    "name" : "Morphia",
+    "name" : "quarkus-morphia",
     "description" : "Advanced MongoDB support via Morphia",
     "metadata" : {
       "keywords" : [ "mongodb", "morphia" ],
@@ -1357,7 +1357,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-morphia",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mongodb-client", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny-reactive-streams-operators" ]
     },
-    "artifact" : "io.quarkiverse.morphia:quarkus-morphia::jar:0.2.0"
+    "artifact" : "io.quarkiverse.morphia:quarkus-morphia::jar:0.4.0"
   }, {
     "name" : "Apache POI",
     "description" : "Read and write files in Microsoft Office formats, such as Word, Excel and PowerPoint",
