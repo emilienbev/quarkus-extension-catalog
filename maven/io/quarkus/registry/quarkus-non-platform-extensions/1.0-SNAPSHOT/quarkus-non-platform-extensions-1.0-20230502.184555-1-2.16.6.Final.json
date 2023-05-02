@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.6.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.6.Final",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -278,6 +278,22 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-resteasy", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-resteasy-server-common", "io.quarkus:quarkus-resteasy-jsonb", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-jwt", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-security", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-smallrye-fault-tolerance", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-smallrye-metrics", "io.quarkus:quarkus-smallrye-openapi", "io.quarkus:quarkus-swagger-ui", "io.quarkus:quarkus-smallrye-opentracing", "io.quarkus:quarkus-jaeger", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config" ]
     },
     "artifact" : "io.quarkiverse.microprofile:quarkus-microprofile::jar:3.0.0.Final"
+  }, {
+    "name" : "Timefold",
+    "description" : "Solve planning and scheduling with AI constraint optimization of vehicle routes, employee rosters, maintenance, tasks, lessons, conferences, ...",
+    "metadata" : {
+      "keywords" : [ "timefold", "constraint-solver", "artificial-intelligence", "employee-rostering", "vehicle-routing-problem", "maintenance-scheduling", "timetabling" ],
+      "categories" : [ "business-automation" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "17",
+      "scm-url" : "https://github.com/TimefoldAI/timefold-solver",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ],
+      "capabilities" : {
+        "provides" : [ "ai.timefold.solver.timefold-quarkus" ]
+      }
+    },
+    "artifact" : "ai.timefold.solver:timefold-solver-quarkus::jar:0.9.38"
   }, {
     "name" : "MyFaces Core",
     "description" : "MyFaces Core is a JSF / Faces implementation which also provides a Quarkus integration.",

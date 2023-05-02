@@ -279,6 +279,22 @@
     },
     "artifact" : "io.quarkiverse.microprofile:quarkus-microprofile::jar:3.0.0.Final"
   }, {
+    "name" : "Timefold",
+    "description" : "Solve planning and scheduling with AI constraint optimization of vehicle routes, employee rosters, maintenance, tasks, lessons, conferences, ...",
+    "metadata" : {
+      "keywords" : [ "timefold", "constraint-solver", "artificial-intelligence", "employee-rostering", "vehicle-routing-problem", "maintenance-scheduling", "timetabling" ],
+      "categories" : [ "business-automation" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "17",
+      "scm-url" : "https://github.com/TimefoldAI/timefold-solver",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ],
+      "capabilities" : {
+        "provides" : [ "ai.timefold.solver.timefold-quarkus" ]
+      }
+    },
+    "artifact" : "ai.timefold.solver:timefold-solver-quarkus::jar:0.9.38"
+  }, {
     "name" : "MyFaces Core",
     "description" : "MyFaces Core is a JSF / Faces implementation which also provides a Quarkus integration.",
     "metadata" : {
