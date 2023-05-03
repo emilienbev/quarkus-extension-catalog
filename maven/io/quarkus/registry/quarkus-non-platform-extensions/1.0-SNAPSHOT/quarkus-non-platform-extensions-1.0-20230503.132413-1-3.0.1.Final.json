@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.1.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.1.Final",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -142,6 +142,22 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.tektonclient:quarkus-tekton-client::jar:1.0.0"
+  }, {
+    "name" : "Timefold JSON-B",
+    "description" : "Activate JSON-B bindings for Timefold's Score classes",
+    "metadata" : {
+      "keywords" : [ "timefold", "jsonb", "json-b", "json" ],
+      "categories" : [ "business-automation", "serialization" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "17",
+      "scm-url" : "https://github.com/TimefoldAI/timefold-solver",
+      "extension-dependencies" : [ "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp" ],
+      "capabilities" : {
+        "provides" : [ "ai.timefold.solver.timefold-quarkus-jsonb" ]
+      }
+    },
+    "artifact" : "ai.timefold.solver:timefold-solver-quarkus-jsonb::jar:0.9.38"
   }, {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -562,6 +578,22 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.hivemqclient:quarkus-hivemq-client::jar:1.0.0"
+  }, {
+    "name" : "Timefold Jackson",
+    "description" : "Activate Jackson bindings for Timefold's Score classes",
+    "metadata" : {
+      "keywords" : [ "timefold", "jackson", "json" ],
+      "categories" : [ "business-automation", "serialization" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "17",
+      "scm-url" : "https://github.com/TimefoldAI/timefold-solver",
+      "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ],
+      "capabilities" : {
+        "provides" : [ "ai.timefold.solver.timefold-quarkus-jackson" ]
+      }
+    },
+    "artifact" : "ai.timefold.solver:timefold-solver-quarkus-jackson::jar:0.9.38"
   }, {
     "name" : "GitHub App Command Airline",
     "description" : "Add comment-based commands to your GitHub App",
@@ -1361,6 +1393,22 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-jsonp" ]
     },
     "artifact" : "io.quarkiverse.loggingjson:quarkus-logging-json::jar:3.0.0"
+  }, {
+    "name" : "Timefold benchmark",
+    "description" : "Benchmark an Timefold project to power tweak the solver configuration for speed and scalability.",
+    "metadata" : {
+      "keywords" : [ "timefold", "benchmark", "performance", "scaling", "tweaking" ],
+      "categories" : [ "business-automation" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "17",
+      "scm-url" : "https://github.com/TimefoldAI/timefold-solver",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "ai.timefold.solver:timefold-solver-quarkus", "io.quarkus:quarkus-awt" ],
+      "capabilities" : {
+        "provides" : [ "ai.timefold.solver.timefold-quarkus-benchmark" ]
+      }
+    },
+    "artifact" : "ai.timefold.solver:timefold-solver-quarkus-benchmark::jar:0.9.38"
   }, {
     "name" : "quarkus-morphia",
     "description" : "Advanced MongoDB support via Morphia",
