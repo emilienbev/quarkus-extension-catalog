@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -95,6 +95,19 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-elasticsearch-rest-high-level-client", "io.quarkus:quarkus-core", "io.quarkus:quarkus-elasticsearch-rest-client-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-elasticsearch-rest-client", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.quarkus-elasticsearch-reactive:quarkus-elasticsearch-reactive::jar:1.0.0"
+  }, {
+    "name" : "Groovy JAXB",
+    "description" : "Make your JAXB binding compatible with Groovy",
+    "metadata" : {
+      "keywords" : [ "groovy", "jaxb", "xml" ],
+      "categories" : [ "binding" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "3.0.2.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
+      "extension-dependencies" : [ "io.quarkiverse.groovy:quarkus-groovy", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp" ]
+    },
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-jaxb::jar:3.0.0"
   }, {
     "name" : "Ngrok",
     "description" : "Launch and configure ngrok to connect to the Quarkus application when it starts in dev mode",
@@ -211,6 +224,23 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:1.0.6"
+  }, {
+    "name" : "Groovy",
+    "description" : "Write your services in Groovy",
+    "metadata" : {
+      "keywords" : [ "groovy" ],
+      "categories" : [ "alt-languages" ],
+      "status" : "preview",
+      "codestart" : {
+        "name" : "groovy",
+        "artifact" : "io.quarkiverse.groovy:quarkus-groovy:codestarts:jar:3.0.0"
+      },
+      "built-with-quarkus-core" : "3.0.2.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
+    },
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy::jar:3.0.0"
   }, {
     "name" : "Amazon Alexa",
     "description" : "Write Amazon Alexa Skills with AWS Lambda or HTTPS endpoints",
@@ -848,6 +878,19 @@
     },
     "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:2.0.0"
   }, {
+    "name" : "Groovy JUnit 5 for integration tests",
+    "description" : "Write the server code of your integration tests with JUnit in Groovy",
+    "metadata" : {
+      "keywords" : [ "groovy", "junit5", "test" ],
+      "categories" : [ "test" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "3.0.2.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkiverse.groovy:quarkus-groovy", "io.quarkus:quarkus-arc" ]
+    },
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-junit5::jar:3.0.0"
+  }, {
     "name" : "OmniFaces",
     "description" : "OmniFaces - is a Faces / JSF utility library to make life easier!",
     "metadata" : {
@@ -916,6 +959,19 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
     "artifact" : "io.quarkus.qson:quarkus-qson::jar:1.1.1.Final"
+  }, {
+    "name" : "Hibernate Reactive with Panache",
+    "description" : "Simplify your persistence code for Hibernate Reactive via the active record or the repository pattern",
+    "metadata" : {
+      "keywords" : [ "hibernate-reactive-panache", "panache", "hibernate", "jpa" ],
+      "categories" : [ "data" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "3.0.2.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-reactive", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-reactive-datasource", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-hibernate-reactive-panache-common", "io.quarkus:quarkus-arc", "io.quarkiverse.groovy:quarkus-groovy" ]
+    },
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-reactive-panache::jar:3.0.0"
   }, {
     "name" : "Operator SDK - Bundle Generator",
     "description" : "Bundle Generation for Java Operator SDK operators",
@@ -1121,6 +1177,25 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.314.1"
+  }, {
+    "name" : "Hibernate ORM with Panache in Groovy",
+    "description" : "Define your persistent model in Hibernate ORM with Panache",
+    "metadata" : {
+      "keywords" : [ "hibernate-orm-panache-groovy", "panache", "hibernate", "jpa", "groovy" ],
+      "categories" : [ "data" ],
+      "status" : "stable",
+      "config" : [ "quarkus.datasource.", "quarkus.hibernate-orm." ],
+      "codestart" : {
+        "name" : "hibernate-orm",
+        "languages" : [ "groovy" ],
+        "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-orm-panache:codestarts:jar:3.0.0"
+      },
+      "built-with-quarkus-core" : "3.0.2.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
+      "extension-dependencies" : [ "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-hibernate-orm-panache-common", "io.quarkus:quarkus-arc", "io.quarkiverse.groovy:quarkus-groovy" ]
+    },
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-orm-panache::jar:3.0.0"
   }, {
     "name" : "JDBC Driver - Clickhouse",
     "description" : "Connect to the ClickHouse database via JDBC",
