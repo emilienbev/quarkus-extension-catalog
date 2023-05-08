@@ -918,7 +918,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.1.4"
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.1.5"
   }, {
     "name" : "OpenCV",
     "description" : "Build computer vision and AI applications with OpenCV",
