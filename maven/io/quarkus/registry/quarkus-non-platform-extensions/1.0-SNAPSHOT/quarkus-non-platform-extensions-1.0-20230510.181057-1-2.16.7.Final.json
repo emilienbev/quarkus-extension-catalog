@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.7.Final",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -662,12 +662,12 @@
       "categories" : [ "kubernetes", "data" ],
       "status" : "stable",
       "description" : "Integrates MinIO Java SDK for Amazon S3 Compatible Cloud Storage",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.2.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-minio",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.minio:quarkus-minio-native" ]
     },
-    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:3.0.0"
+    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:3.0.2"
   }, {
     "name" : "Dashbuilder",
     "description" : "Dashbuilder extension for embedding dashboards in a Quarkus application",
