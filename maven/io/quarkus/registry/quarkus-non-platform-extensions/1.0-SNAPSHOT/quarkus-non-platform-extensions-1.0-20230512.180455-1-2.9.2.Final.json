@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -678,12 +678,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-asyncapi/dev/",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.2.Final",
+      "built-with-quarkus-core" : "3.0.3.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.1.5"
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.1.6"
   }, {
     "name" : "Timefold",
     "description" : "Solve planning and scheduling with AI constraint optimization of vehicle routes, employee rosters, maintenance, tasks, lessons, conferences, ...",
@@ -819,12 +819,12 @@
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
       "config" : [ "quarkus.asyncapi.annotation.scanner." ],
-      "built-with-quarkus-core" : "3.0.2.Final",
+      "built-with-quarkus-core" : "3.0.3.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
       "extension-dependencies" : [ "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi-scanner::jar:0.1.5"
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi-scanner::jar:0.1.6"
   }, {
     "name" : "Logging Logback",
     "description" : "logback.xml support for logback appenders",
