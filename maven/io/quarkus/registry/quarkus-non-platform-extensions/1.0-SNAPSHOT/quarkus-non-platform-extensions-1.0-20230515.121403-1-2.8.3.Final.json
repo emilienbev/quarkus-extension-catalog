@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -37,12 +37,12 @@
       "categories" : [ "data" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-neo4j/dev/index.html",
       "config" : [ "quarkus.neo4j." ],
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.3.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-neo4j",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:3.0.0"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:3.0.3"
   }, {
     "name" : "Freemarker",
     "description" : "Apache FreeMarker template engine to generate text output",
@@ -233,14 +233,18 @@
     "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:2.0.4"
   }, {
     "name" : "QuteServerPages",
-    "description" : "Automatically expose qute templates via HTTP",
+    "description" : "Automatically serves qute templates via HTTP.",
     "metadata" : {
-      "built-with-quarkus-core" : "3.0.2.Final",
+      "keywords" : [ "qsp", "web", "qute", "templates" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-quteserverpages/dev/index.html",
+      "categories" : [ "web" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "3.0.3.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-qute-server-pages",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.quteserverpages:quarkus-qute-server-pages::jar:2.0.0.Final"
+    "artifact" : "io.quarkiverse.quteserverpages:quarkus-qute-server-pages::jar:2.0.1.Final"
   }, {
     "name" : "Apache POI",
     "description" : "Read and write files in Microsoft Office formats, such as Word, Excel and PowerPoint",
