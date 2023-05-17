@@ -591,11 +591,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-jpastreamer/dev/",
       "categories" : [ "data" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.15.1.Final",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jpastreamer",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jpastreamer:quarkus-jpastreamer::jar:1.0.1"
+    "artifact" : "io.quarkiverse.jpastreamer:quarkus-jpastreamer::jar:3.0.1.Alpha3"
   }, {
     "name" : "Zeebe",
     "description" : "Zeebe Camunda cloud BPMN workflow engine",
