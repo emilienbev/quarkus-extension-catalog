@@ -429,14 +429,14 @@
       "codestart" : {
         "name" : "renarde",
         "languages" : [ "java" ],
-        "artifact" : "io.quarkiverse.renarde:quarkus-renarde:codestarts:jar:3.0.1"
+        "artifact" : "io.quarkiverse.renarde:quarkus-renarde:codestarts:jar:3.0.2"
       },
       "built-with-quarkus-core" : "3.0.2.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-renarde",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-security", "io.quarkus:quarkus-resteasy-reactive", "io.quarkus:quarkus-resteasy-reactive-common", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-resteasy-reactive-qute", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-smallrye-jwt", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-hibernate-validator" ]
     },
-    "artifact" : "io.quarkiverse.renarde:quarkus-renarde::jar:3.0.1"
+    "artifact" : "io.quarkiverse.renarde:quarkus-renarde::jar:3.0.2"
   }, {
     "name" : "Groovy JUnit 5 for integration tests",
     "description" : "Write the server code of your integration tests with JUnit in Groovy",
@@ -541,7 +541,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-tika",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-apache-httpclient", "io.quarkiverse.poi:quarkus-poi", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.tika:quarkus-tika::jar:2.0.0"
+    "artifact" : "io.quarkiverse.tika:quarkus-tika::jar:2.0.1"
   }, {
     "name" : "Timefold benchmark",
     "description" : "Benchmark an Timefold project to power tweak the solver configuration for speed and scalability.",
@@ -688,7 +688,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.1.6"
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.1.7"
   }, {
     "name" : "Timefold",
     "description" : "Solve planning and scheduling with AI constraint optimization of vehicle routes, employee rosters, maintenance, tasks, lessons, conferences, ...",
@@ -820,7 +820,7 @@
     "description" : "AsyncAPI Annotation Scanner",
     "metadata" : {
       "keywords" : [ "asyncapi" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-asyncapi-annotation-scanner/dev/",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-asyncapi/dev/scanner.html",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
       "config" : [ "quarkus.asyncapi.annotation.scanner." ],
@@ -829,7 +829,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
       "extension-dependencies" : [ "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi-scanner::jar:0.1.6"
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi-scanner::jar:0.1.7"
   }, {
     "name" : "Logging Logback",
     "description" : "logback.xml support for logback appenders",
