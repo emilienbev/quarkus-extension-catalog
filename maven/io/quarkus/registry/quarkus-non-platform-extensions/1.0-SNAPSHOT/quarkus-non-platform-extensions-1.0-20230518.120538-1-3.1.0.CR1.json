@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.1.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.1.0.CR1",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -1354,13 +1354,19 @@
     "name" : "Vaadin Flow",
     "description" : "Vaadin Flow is a unique framework that lets you build web apps without writing HTML or JavaScript",
     "metadata" : {
-      "keywords" : [ "vaadin", "flow" ],
+      "keywords" : [ "vaadin", "flow", "web" ],
+      "guide" : "https://vaadin.com/docs/latest/integrations/quarkus",
       "categories" : [ "web" ],
-      "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "status" : "stable",
+      "codestart" : {
+        "name" : "vaadin-flow",
+        "languages" : [ "java" ],
+        "artifact" : "com.vaadin:vaadin-quarkus:codestarts:jar:2.0.1"
+      },
+      "built-with-quarkus-core" : "3.0.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client" ]
     },
-    "artifact" : "com.vaadin:vaadin-quarkus::jar:2.0.0"
+    "artifact" : "com.vaadin:vaadin-quarkus::jar:2.0.1"
   }, {
     "name" : "Micrometer registry - Azure Monitor",
     "description" : "Send data gathered by Micrometer to Azure Monitor",
