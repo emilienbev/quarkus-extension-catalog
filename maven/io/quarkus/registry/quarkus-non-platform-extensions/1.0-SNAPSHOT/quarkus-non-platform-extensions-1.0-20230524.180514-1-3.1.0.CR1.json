@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.1.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.1.0.CR1",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -942,13 +942,14 @@
     "metadata" : {
       "keywords" : [ "contract-testing, pact" ],
       "categories" : [ "testing" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-pact/dev/consumer-index.html",
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.3.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-pact",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-kotlin" ]
     },
-    "artifact" : "io.quarkiverse.pact:quarkus-pact-consumer::jar:1.0.0.Final"
+    "artifact" : "io.quarkiverse.pact:quarkus-pact-consumer::jar:1.0.1.Final"
   }, {
     "name" : "Micrometer registry - Datadog",
     "description" : "Send metrics to Datadog using the Datadog API",
@@ -1255,13 +1256,14 @@
     "metadata" : {
       "keywords" : [ "contract-testing, pact" ],
       "categories" : [ "testing" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-pact/dev/provider-index.html",
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.3.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-pact",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-kotlin" ]
     },
-    "artifact" : "io.quarkiverse.pact:quarkus-pact-provider::jar:1.0.0.Final"
+    "artifact" : "io.quarkiverse.pact:quarkus-pact-provider::jar:1.0.1.Final"
   }, {
     "name" : "Dashbuilder",
     "description" : "Dashbuilder extension for embedding dashboards in a Quarkus application",
@@ -1285,12 +1287,12 @@
       "categories" : [ "web" ],
       "status" : "stable",
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-omnifaces/dev/",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-omnifaces",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp" ]
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jaxp", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.1.3"
+    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.1.4"
   }, {
     "name" : "Quarkus CXF Transports HTTP Async",
     "description" : "Implement async SOAP Clients using Apache HttpComponents HttpClient 5",
@@ -1582,10 +1584,10 @@
       "guide" : "https://myfaces.apache.org/#/coregettingstarted?id=quarkus",
       "categories" : [ "web" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-core", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus::jar:4.0.0"
+    "artifact" : "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus::jar:4.0.1"
   }, {
     "name" : "Satoken Oauth2",
     "description" : "Satoken Oauth2 Plugin Of Quarkus Satoken",
