@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.7.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.7.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
   "extensions" : [ {
     "name" : "Jackson Jq",
     "description" : "Provide jq expressions support to Quarkus applications",
@@ -989,16 +989,16 @@
     "description" : "Create and manipulate PDFs on the fly",
     "metadata" : {
       "keywords" : [ "itext", "pdf", "parser", "document", "writer" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-itext/dev/",
-      "icon-url" : "https://commons.wikimedia.org/wiki/File:PDF_file_icon.svg",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/itext/dev/",
+      "icon-url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/195px-PDF_file_icon.svg.png",
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.0.0.CR2",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-itext",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.itext:quarkus-itext::jar:3.0.2"
+    "artifact" : "io.quarkiverse.itext:quarkus-itext::jar:3.0.3"
   }, {
     "name" : "Logging JSON Jackson",
     "description" : "Logging in JSON with support for custom fields",
