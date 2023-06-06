@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
   "extensions" : [ {
     "name" : "Jackson Jq",
     "description" : "Provide jq expressions support to Quarkus applications",
@@ -114,12 +114,12 @@
       "categories" : [ "business-automation" ],
       "status" : "stable",
       "config" : [ "quarkus.github-app." ],
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-github-app",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-smallrye-graphql-client", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-stork", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:2.0.0"
+    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:2.0.1"
   }, {
     "name" : "OmniFaces",
     "description" : "OmniFaces - is a Faces / JSF utility library to make life easier!",
@@ -159,12 +159,12 @@
       "categories" : [ "business-automation" ],
       "status" : "stable",
       "config" : [ "quarkus.github-app." ],
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-github-app",
       "extension-dependencies" : [ "io.quarkiverse.githubapp:quarkus-github-app", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-smallrye-graphql-client", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-stork", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app-command-airline::jar:2.0.0"
+    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app-command-airline::jar:2.0.1"
   }, {
     "name" : "Shardingsphere JDBC Driver",
     "description" : "The extension provides support for ShardingSphere JDBC.",
@@ -547,12 +547,12 @@
       "keywords" : [ "groovy", "junit5", "test" ],
       "categories" : [ "test" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.2.Final",
+      "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkiverse.groovy:quarkus-groovy", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-junit5::jar:3.0.0"
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-junit5::jar:3.1.0"
   }, {
     "name" : "Quarkus CXF Logging",
     "description" : "Levearge advanced Apache CXF logging options, such as logging of SOAP messages",
@@ -665,23 +665,23 @@
     "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:3.1.0"
   }, {
     "name" : "Hibernate ORM with Panache in Groovy",
-    "description" : "Define your persistent model in Hibernate ORM with Panache",
+    "description" : "Define your persistent model in Hibernate ORM with Panache in Groovy",
     "metadata" : {
       "keywords" : [ "hibernate-orm-panache-groovy", "panache", "hibernate", "jpa", "groovy" ],
       "categories" : [ "data" ],
-      "status" : "stable",
+      "status" : "preview",
       "config" : [ "quarkus.datasource.", "quarkus.hibernate-orm." ],
       "codestart" : {
         "name" : "hibernate-orm",
         "languages" : [ "groovy" ],
-        "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-orm-panache:codestarts:jar:3.0.0"
+        "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-orm-panache:codestarts:jar:3.1.0"
       },
-      "built-with-quarkus-core" : "3.0.2.Final",
+      "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
       "extension-dependencies" : [ "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-hibernate-orm-panache-common", "io.quarkus:quarkus-arc", "io.quarkiverse.groovy:quarkus-groovy" ]
     },
-    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-orm-panache::jar:3.0.0"
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-orm-panache::jar:3.1.0"
   }, {
     "name" : "Quarkus CXF Transports HTTP Async",
     "description" : "Implement async SOAP Clients using Apache HttpComponents HttpClient 5",
@@ -797,12 +797,12 @@
       "keywords" : [ "groovy", "jaxb", "xml" ],
       "categories" : [ "binding" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.2.Final",
+      "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
       "extension-dependencies" : [ "io.quarkiverse.groovy:quarkus-groovy", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp" ]
     },
-    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-jaxb::jar:3.0.0"
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-jaxb::jar:3.1.0"
   }, {
     "name" : "AsyncAPI",
     "description" : "AsyncAPI configuration and metadata generator",
@@ -856,14 +856,14 @@
       "status" : "preview",
       "codestart" : {
         "name" : "groovy",
-        "artifact" : "io.quarkiverse.groovy:quarkus-groovy:codestarts:jar:3.0.0"
+        "artifact" : "io.quarkiverse.groovy:quarkus-groovy:codestarts:jar:3.1.0"
       },
-      "built-with-quarkus-core" : "3.0.2.Final",
+      "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.groovy:quarkus-groovy::jar:3.0.0"
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy::jar:3.1.0"
   }, {
     "name" : "Satoken Resteasy",
     "description" : "Satoken Resteasy ...",
@@ -1070,18 +1070,18 @@
     },
     "artifact" : "io.quarkiverse.morphia:quarkus-morphia::jar:0.4.0"
   }, {
-    "name" : "Hibernate Reactive with Panache",
-    "description" : "Simplify your persistence code for Hibernate Reactive via the active record or the repository pattern",
+    "name" : "Hibernate Reactive with Panache in Groovy",
+    "description" : "Simplify your persistence code for Hibernate Reactive via the active record or the repository pattern in Groovy",
     "metadata" : {
-      "keywords" : [ "hibernate-reactive-panache", "panache", "hibernate", "jpa" ],
+      "keywords" : [ "hibernate-reactive-panache", "panache", "hibernate", "jpa", "groovy" ],
       "categories" : [ "data" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.2.Final",
+      "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-reactive", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-reactive-datasource", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-hibernate-reactive-panache-common", "io.quarkus:quarkus-arc", "io.quarkiverse.groovy:quarkus-groovy" ]
     },
-    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-reactive-panache::jar:3.0.0"
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-reactive-panache::jar:3.1.0"
   }, {
     "name" : "Satoken Dao Redis Jackson",
     "description" : "Satoken Dao Redis Jackson Plugin Of Quarkus Satoken",
