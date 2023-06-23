@@ -1328,7 +1328,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-dashbuilder",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.dashbuilder:quarkus-dashbuilder::jar:0.29.0"
+    "artifact" : "io.quarkiverse.dashbuilder:quarkus-dashbuilder::jar:0.30.0"
   }, {
     "name" : "quarkus-morphia",
     "description" : "Advanced MongoDB support via Morphia",
