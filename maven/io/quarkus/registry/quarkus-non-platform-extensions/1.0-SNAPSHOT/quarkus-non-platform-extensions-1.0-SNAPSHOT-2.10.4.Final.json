@@ -650,7 +650,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-prettytime",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.prettytime:quarkus-prettytime::jar:2.0.0"
+    "artifact" : "io.quarkiverse.prettytime:quarkus-prettytime::jar:2.0.1"
   }, {
     "name" : "GitHub App",
     "description" : "Automate GitHub tasks with a GitHub App",
