@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "OmniFaces",
     "description" : "OmniFaces - is a Faces / JSF utility library to make life easier!",
@@ -1380,7 +1380,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-jnosql",
       "extension-dependencies" : [ "io.quarkiverse.jnosql:quarkus-jnosql-document", "io.quarkiverse.jnosql:quarkus-jnosql-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-mongodb-client", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny-reactive-streams-operators" ]
     },
-    "artifact" : "io.quarkiverse.jnosql:quarkus-jnosql-document-mongodb::jar:1.0.2"
+    "artifact" : "io.quarkiverse.jnosql:quarkus-jnosql-document-mongodb::jar:1.0.3"
   }, {
     "name" : "Quarkus - Rsocket",
     "description" : "RSocket Support for native image",
