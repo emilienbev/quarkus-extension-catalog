@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.8.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.8.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.7.Final",
   "extensions" : [ {
     "name" : "MyBatis Plus",
     "description" : "A powerful enhanced toolkit of MyBatis to simplify development",
@@ -166,12 +166,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:2.1.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:2.2.0"
   }, {
     "name" : "Quarkus - Rsocket",
     "description" : "RSocket Support for native image",
@@ -256,12 +256,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-transports-http-hc5.html",
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:2.1.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:2.2.0"
   }, {
     "name" : "Operator SDK - Bundle Generator",
     "description" : "Bundle Generation for Java Operator SDK operators",
@@ -436,12 +436,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-ws-security.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-core", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:2.1.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:2.2.0"
   }, {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",
@@ -788,12 +788,12 @@
       "keywords" : [ "openapi", "openapi-generator", "rest", "rest-client" ],
       "categories" : [ "web" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-openapi-generator",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:2.2.5"
+    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:2.2.6"
   }, {
     "name" : "Dashbuilder",
     "description" : "Dashbuilder extension for embedding dashboards in a Quarkus application",
@@ -868,13 +868,13 @@
       "keywords" : [ "helm", "kubernetes", "openshift" ],
       "categories" : [ "cloud" ],
       "status" : "preview",
-      "cli-plugins" : [ "io.quarkiverse.helm:quarkus-helm-cli:1.0.8" ],
-      "built-with-quarkus-core" : "3.1.1.Final",
+      "cli-plugins" : [ "io.quarkiverse.helm:quarkus-helm-cli:1.0.9" ],
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-helm",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:1.0.8"
+    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:1.0.9"
   }, {
     "name" : "Pact Provider",
     "description" : "Support for running a pact provider in Quarkus, including in Quarkus dev mode.",
@@ -936,12 +936,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-features-metrics.html",
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+      "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:2.1.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:2.2.0"
   }, {
     "name" : "Micrometer registry - JMX",
     "description" : "View metrics data using JMX",
@@ -979,12 +979,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-features-logging.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:2.1.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:2.2.0"
   }, {
     "name" : "JGit",
     "description" : "Access your Git repositories",
@@ -1301,12 +1301,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-ws-rm.html",
       "status" : "experimental",
       "unlisted" : true,
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:2.1.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:2.2.0"
   }, {
     "name" : "Groovy JUnit 5 for integration tests",
     "description" : "Write the server code of your integration tests with JUnit in Groovy",
@@ -1367,12 +1367,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-services-sts.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:2.1.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:2.2.0"
   }, {
     "name" : "Hibernate Reactive with Panache in Groovy",
     "description" : "Simplify your persistence code for Hibernate Reactive via the active record or the repository pattern in Groovy",
@@ -1475,14 +1475,14 @@
       "codestart" : {
         "name" : "quinoa",
         "languages" : [ "java", "kotlin", "scala" ],
-        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:2.0.5"
+        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:2.0.6"
       },
       "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-quinoa",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:2.0.5"
+    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:2.0.6"
   }, {
     "name" : "Bucket4j",
     "description" : "Control the request rate sent to your application",
