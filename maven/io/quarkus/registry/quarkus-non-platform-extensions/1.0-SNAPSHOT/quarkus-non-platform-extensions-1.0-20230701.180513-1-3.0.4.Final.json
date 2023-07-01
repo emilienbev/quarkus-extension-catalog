@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.4.Final",
   "extensions" : [ {
     "name" : "MyBatis Plus",
     "description" : "A powerful enhanced toolkit of MyBatis to simplify development",
@@ -639,12 +639,12 @@
       "keywords" : [ "groovy", "jaxb", "xml" ],
       "categories" : [ "binding" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
       "extension-dependencies" : [ "io.quarkiverse.groovy:quarkus-groovy", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp" ]
     },
-    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-jaxb::jar:3.1.0"
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-jaxb::jar:3.2.0"
   }, {
     "name" : "Lucene",
     "description" : "Add full-text search capabilities to your application with Apache Lucene.",
@@ -920,14 +920,14 @@
       "status" : "preview",
       "codestart" : {
         "name" : "groovy",
-        "artifact" : "io.quarkiverse.groovy:quarkus-groovy:codestarts:jar:3.1.0"
+        "artifact" : "io.quarkiverse.groovy:quarkus-groovy:codestarts:jar:3.2.0"
       },
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.groovy:quarkus-groovy::jar:3.1.0"
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy::jar:3.2.0"
   }, {
     "name" : "Quarkus CXF Metrics",
     "description" : "Collect metrics using https://micrometer.io/[Micrometer].",
@@ -1314,12 +1314,12 @@
       "keywords" : [ "groovy", "junit5", "test" ],
       "categories" : [ "test" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkiverse.groovy:quarkus-groovy", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-junit5::jar:3.1.0"
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-junit5::jar:3.2.0"
   }, {
     "name" : "QuteServerPages",
     "description" : "Automatically serves qute templates via HTTP.",
@@ -1380,12 +1380,12 @@
       "keywords" : [ "hibernate-reactive-panache", "panache", "hibernate", "jpa", "groovy" ],
       "categories" : [ "data" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-reactive", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-reactive-datasource", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-hibernate-reactive-panache-common", "io.quarkus:quarkus-arc", "io.quarkiverse.groovy:quarkus-groovy" ]
     },
-    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-reactive-panache::jar:3.1.0"
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-reactive-panache::jar:3.2.0"
   }, {
     "name" : "Hibernate ORM with Panache in Groovy",
     "description" : "Define your persistent model in Hibernate ORM with Panache in Groovy",
@@ -1397,14 +1397,14 @@
       "codestart" : {
         "name" : "hibernate-orm",
         "languages" : [ "groovy" ],
-        "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-orm-panache:codestarts:jar:3.1.0"
+        "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-orm-panache:codestarts:jar:3.2.0"
       },
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-groovy",
       "extension-dependencies" : [ "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-hibernate-orm-panache-common", "io.quarkus:quarkus-arc", "io.quarkiverse.groovy:quarkus-groovy" ]
     },
-    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-orm-panache::jar:3.1.0"
+    "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-orm-panache::jar:3.2.0"
   }, {
     "name" : "Zanzibar OpenFGA",
     "description" : "OpenFGA Adaptor for Quarkus Zanzibar.",
