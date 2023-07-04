@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
   "extensions" : [ {
     "name" : "MyBatis Plus",
     "description" : "A powerful enhanced toolkit of MyBatis to simplify development",
@@ -1055,6 +1055,23 @@
     },
     "artifact" : "com.vaadin:vaadin-quarkus-extension::jar:24.1.2"
   }, {
+    "name" : "Quarkus Support Azure Storage Blob",
+    "description" : "Quarkus Support for Azure Storage Blob",
+    "metadata" : {
+      "icon-url" : "https://learn.microsoft.com/en-us/media/logos/logo_azure.svg",
+      "short-name" : "azure-storage-blob",
+      "keywords" : [ "storage", "storage-blob", "azure", "azure-storage-blob" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-azure-services/dev/quarkus-azure-storage-blob.html",
+      "categories" : [ "cloud" ],
+      "status" : "preview",
+      "config" : [ "quarkus.azure.storage.blob." ],
+      "built-with-quarkus-core" : "3.2.0.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-azure-services",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-arc" ]
+    },
+    "artifact" : "io.quarkiverse.azureservices:quarkus-azure-storage-blob::jar:1.0.0"
+  }, {
     "name" : "Microprofile",
     "description" : "Quarkus MicroProfile 4.1 Compatible Implementation",
     "metadata" : {
@@ -1571,6 +1588,23 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-hibernate-search-orm-elasticsearch", "io.quarkus:quarkus-elasticsearch-rest-client-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkiverse.amazonservices:quarkus-amazon-common", "io.quarkus:quarkus-arc" ]
     },
     "artifact" : "io.quarkiverse.hibernatesearchextras:quarkus-hibernate-search-orm-elasticsearch-aws::jar:2.0.3"
+  }, {
+    "name" : "Quarkus Azure App Configuration",
+    "description" : "Quarkus Azure App Configuration",
+    "metadata" : {
+      "icon-url" : "https://learn.microsoft.com/en-us/media/logos/logo_azure.svg",
+      "short-name" : "azure-app-configuration",
+      "keywords" : [ "config", "configuration", "azure", "azure-app-configuration" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-azure-services/dev/quarkus-azure-app-configuration.html",
+      "categories" : [ "cloud" ],
+      "status" : "preview",
+      "config" : [ "quarkus.azure.app.configuration." ],
+      "built-with-quarkus-core" : "3.2.0.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-azure-services",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp" ]
+    },
+    "artifact" : "io.quarkiverse.azureservices:quarkus-azure-app-configuration::jar:1.0.0"
   }, {
     "name" : "AsyncAPI Scanner",
     "description" : "AsyncAPI Annotation Scanner",
