@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
   "extensions" : [ {
     "name" : "Zookeeper",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -179,12 +179,12 @@
       "keywords" : [ "http-connector", "http", "websockets" ],
       "categories" : [ "web", "reactive", "messaging" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-reactive-messaging-http",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-smallrye-reactive-messaging", "io.quarkus:quarkus-mutiny-reactive-streams-operators", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx-http" ]
     },
-    "artifact" : "io.quarkiverse.reactivemessaging.http:quarkus-reactive-messaging-http::jar:2.0.1"
+    "artifact" : "io.quarkiverse.reactivemessaging.http:quarkus-reactive-messaging-http::jar:2.0.2"
   }, {
     "name" : "GitHub App",
     "description" : "Automate GitHub tasks with a GitHub App",
