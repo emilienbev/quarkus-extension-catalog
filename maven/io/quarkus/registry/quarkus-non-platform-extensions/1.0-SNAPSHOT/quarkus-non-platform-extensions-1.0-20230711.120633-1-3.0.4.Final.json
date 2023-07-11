@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.4.Final",
   "extensions" : [ {
     "name" : "Zookeeper",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -1658,12 +1658,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-jpastreamer/dev/",
       "categories" : [ "data" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jpastreamer",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jpastreamer:quarkus-jpastreamer::jar:3.0.1.Alpha3"
+    "artifact" : "io.quarkiverse.jpastreamer:quarkus-jpastreamer::jar:3.0.2.Final"
   }, {
     "name" : "Logging manager",
     "description" : "Provides you endpoints to visualize and manage the log level of your loggers",
