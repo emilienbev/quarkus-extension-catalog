@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
   "extensions" : [ {
     "name" : "Zookeeper",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -376,12 +376,12 @@
       "icon-url" : "https://apistax.io/user/assets/logo-square-black.png",
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.0.1.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-apistax",
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.4.3"
+    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.4.4"
   }, {
     "name" : "Micrometer registry - Datadog",
     "description" : "Send metrics to Datadog using the Datadog API",
