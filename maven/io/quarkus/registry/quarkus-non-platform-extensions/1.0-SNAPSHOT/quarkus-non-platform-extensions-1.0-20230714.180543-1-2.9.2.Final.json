@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Zookeeper",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -460,12 +460,12 @@
       "keywords" : [ "jsch" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-jsch/dev/index.html",
       "categories" : [ "miscellaneous" ],
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jsch",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:3.0.1"
+    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:3.0.2"
   }, {
     "name" : "iText",
     "description" : "Create and manipulate PDFs on the fly",
@@ -1469,7 +1469,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-jgit",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.jsch:quarkus-jsch" ]
     },
-    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:3.0.1"
+    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:3.0.2"
   }, {
     "name" : "Lucene",
     "description" : "Add full-text search capabilities to your application with Apache Lucene.",
@@ -1504,9 +1504,10 @@
       "keywords" : [ "tika", "parser" ],
       "categories" : [ "miscellaneous" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-tika/dev/index.html",
+      "icon-url" : "https://www.apache.org/foundation/press/kit/poweredBy/Apache_PoweredBy.svg",
       "status" : "stable",
       "config" : [ "quarkus.tika." ],
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "capabilities" : {
         "provides" : [ "io.quarkus.tika" ]
@@ -1514,7 +1515,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-tika",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-apache-httpclient", "io.quarkiverse.poi:quarkus-poi", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.tika:quarkus-tika::jar:2.0.1"
+    "artifact" : "io.quarkiverse.tika:quarkus-tika::jar:2.0.2"
   }, {
     "name" : "MyFaces Core",
     "description" : "MyFaces Core is a JSF / Faces implementation which also provides a Quarkus integration.",
