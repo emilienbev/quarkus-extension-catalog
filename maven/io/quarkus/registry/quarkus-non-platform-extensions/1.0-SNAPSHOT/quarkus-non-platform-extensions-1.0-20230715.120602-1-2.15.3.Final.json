@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
   "extensions" : [ {
     "name" : "Zookeeper",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -471,16 +471,16 @@
     "description" : "Create and manipulate PDFs on the fly",
     "metadata" : {
       "keywords" : [ "itext", "pdf", "parser", "document", "writer" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/itext/dev/",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-itext/dev/",
       "icon-url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/195px-PDF_file_icon.svg.png",
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-itext",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.itext:quarkus-itext::jar:3.0.3"
+    "artifact" : "io.quarkiverse.itext:quarkus-itext::jar:3.0.4"
   }, {
     "name" : "Satoken Sso",
     "description" : "Satoken Sso Plugin Of Quarkus Satoken",
@@ -610,12 +610,12 @@
       "status" : "stable",
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-primefaces/dev/",
       "icon-url" : "https://avatars.githubusercontent.com/u/3494069?s=200&v=4",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-primefaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp", "io.quarkiverse.poi:quarkus-poi", "io.quarkus:quarkus-awt", "io.quarkiverse.itext:quarkus-itext" ]
     },
-    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:3.13.1"
+    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:3.13.2"
   }, {
     "name" : "Authzed Client",
     "description" : "A wrapper around the authzed client",
@@ -1645,12 +1645,12 @@
       "status" : "stable",
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-omnifaces/dev/",
       "icon-url" : "https://avatars.githubusercontent.com/u/7047175?s=200&v=4",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-omnifaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jaxp", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.2.0"
+    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.2.1"
   }, {
     "name" : "JPAStreamer",
     "description" : "Express your Hibernate queries as standard Java Streams",
