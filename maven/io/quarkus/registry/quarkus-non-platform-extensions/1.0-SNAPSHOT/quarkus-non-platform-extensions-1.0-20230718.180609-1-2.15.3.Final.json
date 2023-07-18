@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.8.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.8.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
   "extensions" : [ {
     "name" : "Zookeeper",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -1205,9 +1205,9 @@
     "artifact" : "io.quarkiverse.messaginghub:quarkus-pooled-jms::jar:2.0.1"
   }, {
     "name" : "Quinoa",
-    "description" : "Quinoa is a Quarkus extension which eases the development, the build and serving single page apps or web components (built with NodeJS: React, Angular, Vue, Lit, …) alongside other Quarkus services (REST, GraphQL, Security, Events, ...).\n\nLive code the backend and frontend together with close to no configuration. When enabled in development mode, Quinoa will start the UI live coding server provided by the target framework and forward relevant requests to it. In production mode, Quinoa will run the build and process the generated files to serve them at runtime.\n",
+    "description" : "Quinoa is a Quarkus extension which eases the development, the build and serving single page apps or web components (built with NodeJS: React, Angular, Vue, Lit, Svelte, Astro, SolidJS …) alongside other Quarkus services (REST, GraphQL, Security, Events, ...).\n\nLive code the backend and frontend together with close to no configuration. When enabled in development mode, Quinoa will start the UI live coding server provided by the target framework and forward relevant requests to it. In production mode, Quinoa will run the build and process the generated files to serve them at runtime.\n",
     "metadata" : {
-      "keywords" : [ "quinoa", "ui", "react", "angular", "vue", "lit", "spa", "node", "nodejs", "web", "frontend" ],
+      "keywords" : [ "quinoa", "ui", "react", "angular", "vue", "lit", "svelte", "astro", "solidjs", "spa", "node", "nodejs", "web", "frontend" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-quinoa/dev/index.html",
       "icon-url" : "https://raw.githubusercontent.com/quarkiverse/quarkus-quinoa/main/docs/modules/ROOT/assets/images/node_logo.svg",
       "categories" : [ "web" ],
@@ -1215,14 +1215,14 @@
       "codestart" : {
         "name" : "quinoa",
         "languages" : [ "java", "kotlin", "scala" ],
-        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:2.0.6"
+        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:2.0.8"
       },
       "built-with-quarkus-core" : "3.1.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-quinoa",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:2.0.6"
+    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:2.0.8"
   }, {
     "name" : "QuteServerPages",
     "description" : "Automatically serves qute templates via HTTP.",
