@@ -945,12 +945,12 @@
       "icon-url" : "https://poi.apache.org/images/poweredby-poi-logo.png",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.2.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-poi",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.2"
+    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.3"
   }, {
     "name" : "Quarkus CXF",
     "description" : "Core capabilities for implementing SOAP clients and JAX-WS services",
