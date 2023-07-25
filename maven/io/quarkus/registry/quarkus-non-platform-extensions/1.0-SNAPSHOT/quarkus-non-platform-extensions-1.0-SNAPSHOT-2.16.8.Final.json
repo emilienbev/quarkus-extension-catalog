@@ -1095,12 +1095,12 @@
       "keywords" : [ "logging", "logback" ],
       "categories" : [ "logging" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.2.2.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-logging-logback",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:1.1.0"
+    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:1.1.1"
   }, {
     "name" : "Quarkus CXF WS-ReliableMessaging",
     "description" : "Consume and produce web services with Web Services Reliable Messaging (WS-ReliableMessaging, WSRM)",
