@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.1.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.1.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.8.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.8.Final",
   "extensions" : [ {
     "name" : "Zookeeper",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -526,12 +526,12 @@
     "metadata" : {
       "keywords" : [ "camunda", "zeebe", "bpmn" ],
       "categories" : [ "business automation" ],
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.2.2.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-zeebe",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-grpc-common", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.zeebe:quarkus-zeebe::jar:1.0.1"
+    "artifact" : "io.quarkiverse.zeebe:quarkus-zeebe::jar:1.1.0"
   }, {
     "name" : "Pact Provider",
     "description" : "Support for running a pact provider in Quarkus, including in Quarkus dev mode.",
@@ -717,12 +717,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-mybatis/dev/",
       "categories" : [ "data" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.2.2.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-mybatis",
       "extension-dependencies" : [ "io.quarkiverse.mybatis:quarkus-mybatis", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:2.0.0"
+    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:2.1.0"
   }, {
     "name" : "MyBatis SQL Mapper",
     "description" : "MyBatis SQL mapper framework for Java",
@@ -731,12 +731,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-mybatis/dev/index.html",
       "categories" : [ "data" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.2.2.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-mybatis",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:2.0.0"
+    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:2.1.0"
   }, {
     "name" : "Quarkus CXF Logging",
     "description" : "Levearge advanced Apache CXF logging options, such as logging of SOAP messages",
