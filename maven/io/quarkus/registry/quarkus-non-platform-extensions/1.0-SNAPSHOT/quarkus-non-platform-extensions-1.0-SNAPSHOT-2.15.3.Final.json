@@ -1387,12 +1387,12 @@
       "categories" : [ "data" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-neo4j/dev/index.html",
       "config" : [ "quarkus.neo4j." ],
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.2.3.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-neo4j",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:3.2.0"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:3.2.1"
   }, {
     "name" : "Operator SDK - Bundle Generator",
     "description" : "Bundle Generation for Java Operator SDK operators",
