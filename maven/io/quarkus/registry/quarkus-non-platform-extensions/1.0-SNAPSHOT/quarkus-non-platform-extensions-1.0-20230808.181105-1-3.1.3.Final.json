@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.1.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.1.3.Final",
   "extensions" : [ {
     "name" : "Logging Cloudwatch",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -399,12 +399,12 @@
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
       "config" : [ "quarkus.asyncapi.annotation.scanner." ],
-      "built-with-quarkus-core" : "3.0.3.Final",
+      "built-with-quarkus-core" : "3.2.2.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
       "extension-dependencies" : [ "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi-scanner::jar:0.1.7"
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi-scanner::jar:0.2.0"
   }, {
     "name" : "Vaadin Flow",
     "description" : "Vaadin Flow is a unique framework that lets you build web apps without writing HTML or JavaScript",
@@ -1277,12 +1277,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-asyncapi/dev/",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.3.Final",
+      "built-with-quarkus-core" : "3.2.2.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.1.7"
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.2.0"
   }, {
     "name" : "Quarkus CXF WS-Security",
     "description" : "Consume and produce web services with Web Services Security (WS-Security, WSS)",
