@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
   "extensions" : [ {
     "name" : "Logging Cloudwatch",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -580,12 +580,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-ws-rm.html",
       "status" : "experimental",
       "unlisted" : true,
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.2.4.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:2.2.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:2.2.1"
   }, {
     "name" : "Micrometer registry - Datadog",
     "description" : "Send metrics to Datadog using the Datadog API",
@@ -915,12 +915,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.2.4.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:2.2.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:2.2.1"
   }, {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
@@ -1050,13 +1050,12 @@
       "keywords" : [ "soap", "cxf", "services" ],
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-transports-http-hc5.html",
-      "status" : "experimental",
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.2.4.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:2.2.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:2.2.1"
   }, {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",
@@ -1133,12 +1132,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-features-logging.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.2.4.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:2.2.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:2.2.1"
   }, {
     "name" : "Groovy",
     "description" : "Write your services in Groovy",
@@ -1291,12 +1290,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-ws-security.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.2.4.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-core", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:2.2.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:2.2.1"
   }, {
     "name" : "Logging manager",
     "description" : "Provides you endpoints to visualize and manage the log level of your loggers",
@@ -1319,12 +1318,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-services-sts.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.2.4.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:2.2.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:2.2.1"
   }, {
     "name" : "HOCON Config",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -1464,12 +1463,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-features-metrics.html",
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.2.4.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:2.2.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:2.2.1"
   }, {
     "name" : "Micrometer registry - JMX",
     "description" : "View metrics data using JMX",
