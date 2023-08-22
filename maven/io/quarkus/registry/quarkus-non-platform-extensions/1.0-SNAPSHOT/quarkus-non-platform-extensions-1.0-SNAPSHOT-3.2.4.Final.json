@@ -658,12 +658,12 @@
       "guide" : "https://github-api.kohsuke.org/",
       "categories" : [ "business-automation" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.3.0",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-github-api",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.315.0"
+    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.316.0"
   }, {
     "name" : "Reactive HTTP and WebSocket Connector",
     "description" : "Connect to HTTP or WebSocket and expose HTTP or WebSocket endpoints for Reactive Messaging",
