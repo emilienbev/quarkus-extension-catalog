@@ -704,12 +704,12 @@
       "codestart" : {
         "name" : "vaadin-flow",
         "languages" : [ "java" ],
-        "artifact" : "com.vaadin:vaadin-quarkus-extension:codestarts:jar:24.1.6"
+        "artifact" : "com.vaadin:vaadin-quarkus-extension:codestarts:jar:24.1.7"
       },
       "built-with-quarkus-core" : "3.0.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client" ]
     },
-    "artifact" : "com.vaadin:vaadin-quarkus-extension::jar:24.1.6"
+    "artifact" : "com.vaadin:vaadin-quarkus-extension::jar:24.1.7"
   }, {
     "name" : "Quarkus CXF WS-ReliableMessaging",
     "description" : "Consume and produce web services with Web Services Reliable Messaging (WS-ReliableMessaging, WSRM)",
