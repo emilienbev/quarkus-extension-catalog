@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
   "extensions" : [ {
     "name" : "Freemarker",
     "description" : "Apache FreeMarker template engine to generate text output",
@@ -283,12 +283,12 @@
       "categories" : [ "core" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-config-extensions/dev/consul.html",
       "config" : [ "quarkus.consul-config." ],
-      "built-with-quarkus-core" : "3.2.2.Final",
+      "built-with-quarkus-core" : "3.3.0",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.config:quarkus-config-consul::jar:2.1.0"
+    "artifact" : "io.quarkiverse.config:quarkus-config-consul::jar:2.2.0"
   }, {
     "name" : "Doma - Database access framework",
     "description" : "Simplify your database accesses with compile-time code generation",
@@ -537,12 +537,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-quteserverpages/dev/index.html",
       "categories" : [ "web" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.3.Final",
+      "built-with-quarkus-core" : "3.3.0",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-qute-server-pages",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.quteserverpages:quarkus-qute-server-pages::jar:2.0.1.Final"
+    "artifact" : "io.quarkiverse.quteserverpages:quarkus-qute-server-pages::jar:2.1.0.Final"
   }, {
     "name" : "Quinoa",
     "description" : "Quinoa is a Quarkus extension which eases the development, the build and serving single page apps or web components (built with NodeJS: React, Angular, Vue, Lit, Svelte, Astro, SolidJS, Emberjs, Aurelia, Polymer …) alongside other Quarkus services (REST, GraphQL, Security, Events, ...).\n\nLive code the backend and frontend together with close to no configuration. When enabled in development mode, Quinoa will start the UI live coding server provided by the target framework and forward relevant requests to it. In production mode, Quinoa will run the build and process the generated files to serve them at runtime.\n",
@@ -761,12 +761,12 @@
       "keywords" : [ "config", "configuration", "jdbc", "agroal" ],
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.2.2.Final",
+      "built-with-quarkus-core" : "3.3.0",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.config:quarkus-config-jdbc::jar:2.1.0"
+    "artifact" : "io.quarkiverse.config:quarkus-config-jdbc::jar:2.2.0"
   }, {
     "name" : "Quarkus CXF Transports HTTP Async",
     "description" : "Implement async SOAP Clients using Apache HttpComponents HttpClient 5",
@@ -896,12 +896,12 @@
     "metadata" : {
       "keywords" : [ "config", "configuration", "hocon" ],
       "categories" : [ "core" ],
-      "built-with-quarkus-core" : "3.2.2.Final",
+      "built-with-quarkus-core" : "3.3.0",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.config:quarkus-config-hocon::jar:2.1.0"
+    "artifact" : "io.quarkiverse.config:quarkus-config-hocon::jar:2.2.0"
   }, {
     "name" : "PrimeFaces",
     "description" : "PrimeFaces - is the ultimate component suite for JavaServer Faces",
