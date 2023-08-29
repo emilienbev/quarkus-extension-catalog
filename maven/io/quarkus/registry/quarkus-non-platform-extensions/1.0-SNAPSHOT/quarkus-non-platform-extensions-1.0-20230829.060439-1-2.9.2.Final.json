@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.8.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.8.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Freemarker",
     "description" : "Apache FreeMarker template engine to generate text output",
@@ -1023,12 +1023,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-systemd-notify/dev/",
       "categories" : [ "integration" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.3.0",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-systemd-notify",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.systemd.notify:quarkus-systemd-notify::jar:1.0.1"
+    "artifact" : "io.quarkiverse.systemd.notify:quarkus-systemd-notify::jar:1.0.2"
   }, {
     "name" : "Jackson Jq",
     "description" : "Provide jq expressions support to Quarkus applications",
