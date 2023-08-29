@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
   "extensions" : [ {
     "name" : "Freemarker",
     "description" : "Apache FreeMarker template engine to generate text output",
@@ -573,12 +573,12 @@
       "categories" : [ "data", "integration" ],
       "status" : "stable",
       "config" : [ "quarkus.jberet." ],
-      "built-with-quarkus-core" : "3.0.0.CR1",
+      "built-with-quarkus-core" : "3.3.0",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jberet",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource" ]
     },
-    "artifact" : "io.quarkiverse.jberet:quarkus-jberet::jar:2.0.1"
+    "artifact" : "io.quarkiverse.jberet:quarkus-jberet::jar:2.1.0"
   }, {
     "name" : "Dapr",
     "description" : "Dapr SDK",
@@ -1106,12 +1106,12 @@
       "keywords" : [ "jberet-rest" ],
       "categories" : [ "rest" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.CR1",
+      "built-with-quarkus-core" : "3.3.0",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jberet",
       "extension-dependencies" : [ "io.quarkiverse.jberet:quarkus-jberet", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-resteasy", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-resteasy-server-common", "io.quarkus:quarkus-resteasy-jsonb", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-rest-client-jsonb", "io.quarkus:quarkus-jackson" ]
     },
-    "artifact" : "io.quarkiverse.jberet:quarkus-jberet-rest::jar:2.0.1"
+    "artifact" : "io.quarkiverse.jberet:quarkus-jberet-rest::jar:2.1.0"
   }, {
     "name" : "MyFaces Core",
     "description" : "MyFaces Core is a JSF / Faces implementation which also provides a Quarkus integration.",
