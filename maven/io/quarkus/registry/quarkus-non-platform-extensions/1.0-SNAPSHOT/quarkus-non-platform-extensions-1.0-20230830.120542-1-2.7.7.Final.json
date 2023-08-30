@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Freemarker",
     "description" : "Apache FreeMarker template engine to generate text output",
@@ -97,12 +97,12 @@
       "categories" : [ "data" ],
       "status" : "stable",
       "description" : "Connect to the Sqlite database via JDBC/DataSource/Hibernate",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.3.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jdbc-sqlite",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:3.0.5"
+    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:3.0.6"
   }, {
     "name" : "Apache POI",
     "description" : "Read and write files in Microsoft Office formats, such as Word, Excel and PowerPoint",
