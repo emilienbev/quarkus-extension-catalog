@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Freemarker",
     "description" : "Apache FreeMarker template engine to generate text output",
@@ -63,6 +63,16 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-reactive", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-reactive-datasource", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-hibernate-reactive-panache-common", "io.quarkus:quarkus-arc", "io.quarkiverse.groovy:quarkus-groovy" ]
     },
     "artifact" : "io.quarkiverse.groovy:quarkus-groovy-hibernate-reactive-panache::jar:3.2.2"
+  }, {
+    "name" : "Moneta",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "built-with-quarkus-core" : "3.3.0",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-moneta",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.moneta:quarkus-moneta::jar:0.1.1"
   }, {
     "name" : "Zanzibar OpenFGA",
     "description" : "OpenFGA Adaptor for Quarkus Zanzibar.",
@@ -348,12 +358,12 @@
       "categories" : [ "kubernetes", "data" ],
       "status" : "stable",
       "description" : "Integrates MinIO Java SDK for Amazon S3 Compatible Cloud Storage",
-      "built-with-quarkus-core" : "3.1.0.Final",
+      "built-with-quarkus-core" : "3.3.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-minio",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.minio:quarkus-minio-native" ]
     },
-    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:3.1.0.Final"
+    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:3.3.1"
   }, {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
