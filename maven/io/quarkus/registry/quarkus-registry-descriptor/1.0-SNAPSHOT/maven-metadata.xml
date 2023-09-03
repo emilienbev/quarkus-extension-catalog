@@ -4,20 +4,20 @@
   <artifactId>quarkus-registry-descriptor</artifactId>
   <versioning>
     <snapshot>
-      <timestamp>20230901.180434</timestamp>
+      <timestamp>20230903.180448</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20230901180434</lastUpdated>
+    <lastUpdated>20230903180448</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20230901.180434-1</value>
-        <updated>20230901180434</updated>
+        <value>1.0-20230903.180448-1</value>
+        <updated>20230903180448</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>json</extension>
-        <value>1.0-20230901.180434-1</value>
-        <updated>20230901180434</updated>
+        <value>1.0-20230903.180448-1</value>
+        <updated>20230903180448</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
