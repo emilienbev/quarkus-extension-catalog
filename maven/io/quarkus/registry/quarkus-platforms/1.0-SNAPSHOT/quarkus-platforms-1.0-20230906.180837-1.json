@@ -2,6 +2,13 @@
   "platforms" : [ {
     "platform-key" : "io.quarkus.platform",
     "streams" : [ {
+      "id" : "3.4",
+      "releases" : [ {
+        "version" : "3.4.0.CR1",
+        "member-boms" : [ "io.quarkus.platform:quarkus-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1", "io.quarkus.platform:quarkus-optaplanner-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1", "io.quarkus.platform:quarkus-qpid-jms-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1", "io.quarkus.platform:quarkus-cassandra-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1", "io.quarkus.platform:quarkus-amazon-services-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1", "io.quarkus.platform:quarkus-cxf-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1", "io.quarkus.platform:quarkus-camel-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1", "io.quarkus.platform:quarkus-debezium-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1", "io.quarkus.platform:quarkus-blaze-persistence-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1", "io.quarkus.platform:quarkus-google-cloud-services-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1", "io.quarkus.platform:quarkus-operator-sdk-bom-quarkus-platform-descriptor:3.4.0.CR1:json:3.4.0.CR1" ],
+        "quarkus-core-version" : "3.4.0.CR1"
+      } ]
+    }, {
       "id" : "3.3",
       "releases" : [ {
         "version" : "3.3.2",
