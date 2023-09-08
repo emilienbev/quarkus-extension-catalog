@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.3.2:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.3.2",
   "extensions" : [ {
     "name" : "Freemarker",
     "description" : "Apache FreeMarker template engine to generate text output",
@@ -250,10 +250,12 @@
       "keywords" : [ "maven" ],
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.6.3.Final",
+      "built-with-quarkus-core" : "3.2.5.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-maven-resolver",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.mavenresolver:quarkus-maven-resolver::jar:0.0.3"
+    "artifact" : "io.quarkiverse.mavenresolver:quarkus-maven-resolver::jar:0.0.4"
   }, {
     "name" : "Timefold benchmark",
     "description" : "Benchmark an Timefold project to power tweak the solver configuration for speed and scalability.",
@@ -279,12 +281,12 @@
       "icon-url" : "https://www.apache.org/foundation/press/kit/poweredBy/Apache_PoweredBy.svg",
       "categories" : [ "search" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.1.2.Final",
+      "built-with-quarkus-core" : "3.3.2",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-lucene",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.lucene:quarkus-lucene::jar:2.2.0"
+    "artifact" : "io.quarkiverse.lucene:quarkus-lucene::jar:2.3.0"
   }, {
     "name" : "Consul Config",
     "description" : "Read runtime configuration from Consul Key - Value store",
