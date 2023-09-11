@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Freemarker",
     "description" : "Apache FreeMarker template engine to generate text output",
@@ -734,12 +734,12 @@
       "codestart" : {
         "name" : "vaadin-flow",
         "languages" : [ "java" ],
-        "artifact" : "com.vaadin:vaadin-quarkus-extension:codestarts:jar:24.1.8"
+        "artifact" : "com.vaadin:vaadin-quarkus-extension:codestarts:jar:24.1.9"
       },
       "built-with-quarkus-core" : "3.0.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client" ]
     },
-    "artifact" : "com.vaadin:vaadin-quarkus-extension::jar:24.1.8"
+    "artifact" : "com.vaadin:vaadin-quarkus-extension::jar:24.1.9"
   }, {
     "name" : "Quarkus CXF WS-ReliableMessaging",
     "description" : "Consume and produce web services with Web Services Reliable Messaging (WS-ReliableMessaging, WSRM)",
@@ -942,12 +942,12 @@
       "status" : "stable",
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-primefaces/dev/",
       "icon-url" : "https://avatars.githubusercontent.com/u/3494069?s=200&v=4",
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.3.0",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-primefaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp", "io.quarkiverse.poi:quarkus-poi", "io.quarkus:quarkus-awt", "io.quarkiverse.itext:quarkus-itext" ]
     },
-    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:3.13.3"
+    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:3.13.4"
   }, {
     "name" : "Quarkus - Helm",
     "description" : "Quarkus extension for Helm",
