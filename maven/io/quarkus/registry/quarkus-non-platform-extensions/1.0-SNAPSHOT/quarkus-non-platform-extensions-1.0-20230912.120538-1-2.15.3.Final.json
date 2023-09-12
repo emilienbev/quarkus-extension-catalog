@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
   "extensions" : [ {
     "name" : "Freemarker",
     "description" : "Apache FreeMarker template engine to generate text output",
@@ -263,7 +263,7 @@
       "keywords" : [ "timefold", "benchmark", "performance", "scaling", "tweaking" ],
       "categories" : [ "business-automation" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.2.4.Final",
+      "built-with-quarkus-core" : "3.3.2",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/TimefoldAI/timefold-solver",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "ai.timefold.solver:timefold-solver-quarkus", "io.quarkus:quarkus-awt" ],
@@ -271,7 +271,7 @@
         "provides" : [ "ai.timefold.solver.timefold-quarkus-benchmark" ]
       }
     },
-    "artifact" : "ai.timefold.solver:timefold-solver-quarkus-benchmark::jar:1.1.0"
+    "artifact" : "ai.timefold.solver:timefold-solver-quarkus-benchmark::jar:1.2.0"
   }, {
     "name" : "Lucene",
     "description" : "Add full-text search capabilities to your application with Apache Lucene.",
@@ -714,7 +714,7 @@
       "keywords" : [ "timefold", "jsonb", "json-b", "json" ],
       "categories" : [ "business-automation", "serialization" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.2.4.Final",
+      "built-with-quarkus-core" : "3.3.2",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/TimefoldAI/timefold-solver",
       "extension-dependencies" : [ "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp" ],
@@ -722,7 +722,7 @@
         "provides" : [ "ai.timefold.solver.timefold-quarkus-jsonb" ]
       }
     },
-    "artifact" : "ai.timefold.solver:timefold-solver-quarkus-jsonb::jar:1.1.0"
+    "artifact" : "ai.timefold.solver:timefold-solver-quarkus-jsonb::jar:1.2.0"
   }, {
     "name" : "Vaadin Flow",
     "description" : "Vaadin Flow is a unique framework that lets you build web apps without writing HTML or JavaScript",
@@ -911,7 +911,7 @@
       "keywords" : [ "timefold", "constraint-solver", "artificial-intelligence", "employee-rostering", "vehicle-routing-problem", "maintenance-scheduling", "timetabling" ],
       "categories" : [ "business-automation" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.2.4.Final",
+      "built-with-quarkus-core" : "3.3.2",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/TimefoldAI/timefold-solver",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ],
@@ -919,7 +919,7 @@
         "provides" : [ "ai.timefold.solver.timefold-quarkus" ]
       }
     },
-    "artifact" : "ai.timefold.solver:timefold-solver-quarkus::jar:1.1.0"
+    "artifact" : "ai.timefold.solver:timefold-solver-quarkus::jar:1.2.0"
   }, {
     "name" : "HOCON Config",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -1192,7 +1192,7 @@
       "keywords" : [ "timefold", "jackson", "json" ],
       "categories" : [ "business-automation", "serialization" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.2.4.Final",
+      "built-with-quarkus-core" : "3.3.2",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/TimefoldAI/timefold-solver",
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ],
@@ -1200,7 +1200,7 @@
         "provides" : [ "ai.timefold.solver.timefold-quarkus-jackson" ]
       }
     },
-    "artifact" : "ai.timefold.solver:timefold-solver-quarkus-jackson::jar:1.1.0"
+    "artifact" : "ai.timefold.solver:timefold-solver-quarkus-jackson::jar:1.2.0"
   }, {
     "name" : "Micrometer registry - Azure Monitor",
     "description" : "Send data gathered by Micrometer to Azure Monitor",
