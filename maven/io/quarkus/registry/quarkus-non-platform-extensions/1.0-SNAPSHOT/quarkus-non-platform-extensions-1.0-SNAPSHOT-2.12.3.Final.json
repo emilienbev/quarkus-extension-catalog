@@ -646,6 +646,21 @@
     },
     "artifact" : "io.quarkiverse.quteserverpages:quarkus-qute-server-pages::jar:2.1.0.Final"
   }, {
+    "name" : "IronJacamar (JCA)",
+    "description" : "Run Jakarta Connector (JCA) adapters in Quarkus",
+    "metadata" : {
+      "keywords" : [ "jca", "ironjacamar" ],
+      "guide" : "https://docs.quarkiverse.io/quarkus-ironjacamar/dev/",
+      "icon-url" : "https://design.jboss.org/ironjacamar/logo/finals/ironjacamar_icon_256px.png",
+      "categories" : [ "integration" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "3.2.5.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-ironjacamar",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-smallrye-context-propagation" ]
+    },
+    "artifact" : "io.quarkiverse.ironjacamar:quarkus-ironjacamar::jar:1.0.0"
+  }, {
     "name" : "Timefold",
     "description" : "Solve planning and scheduling with AI constraint optimization of vehicle routes, employee rosters, maintenance, tasks, lessons, conferences, ...",
     "metadata" : {
