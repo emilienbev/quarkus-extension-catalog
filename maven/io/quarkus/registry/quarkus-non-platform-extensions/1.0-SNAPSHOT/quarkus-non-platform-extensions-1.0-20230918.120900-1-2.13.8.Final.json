@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.11.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.11.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.8.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.8.Final",
   "extensions" : [ {
     "name" : "Jdbi Quarkus - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -1466,12 +1466,12 @@
       "categories" : [ "data" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-neo4j/dev/index.html",
       "config" : [ "quarkus.neo4j." ],
-      "built-with-quarkus-core" : "3.3.1",
+      "built-with-quarkus-core" : "3.4.0",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-neo4j",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:3.3.1"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:3.4.0"
   }, {
     "name" : "Hibernate ORM with Panache in Groovy",
     "description" : "Define your persistent model in Hibernate ORM with Panache in Groovy",
