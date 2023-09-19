@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.3.3:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.3.3",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.4.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.4.0.CR1",
   "extensions" : [ {
     "name" : "Jdbi Quarkus - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -488,7 +488,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-logging-sentry",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:2.0.1"
+    "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:2.0.2"
   }, {
     "name" : "Univocity Parsers",
     "description" : "Univocity Parsers Extension, which allowing to use univocity dependency in the Quarkus' Eco-System. Example for\n      parsing csv or tsv files, with a really fast, flexible and reliable Java parsers thank to its data binding, consistent interface,\n      a solid framework and a parallel input buffering",
