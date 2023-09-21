@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Jdbi Quarkus - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -762,12 +762,12 @@
       "categories" : [ "messaging" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-artemis/dev/index.html",
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "3.3.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-artemis",
       "extension-dependencies" : [ "io.quarkiverse.artemis:quarkus-artemis-core", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:3.1.0"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:3.1.1"
   }, {
     "name" : "Satoken Oauth2",
     "description" : "Satoken Oauth2 Plugin Of Quarkus Satoken",
@@ -1498,12 +1498,12 @@
       "keywords" : [ "artemis-core", "artemis" ],
       "categories" : [ "messaging" ],
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "3.3.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-artemis",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:3.1.0"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:3.1.1"
   }, {
     "name" : "Operator SDK - Bundle Generator",
     "description" : "Bundle Generation for Java Operator SDK operators",
