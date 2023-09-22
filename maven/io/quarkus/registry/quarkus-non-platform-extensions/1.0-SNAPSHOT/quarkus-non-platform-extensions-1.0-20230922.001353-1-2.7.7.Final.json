@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Jdbi Quarkus - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -710,12 +710,12 @@
       "keywords" : [ "config", "configuration", "jdbc", "agroal" ],
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.3.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.config:quarkus-config-jdbc::jar:2.2.0"
+    "artifact" : "io.quarkiverse.config:quarkus-config-jdbc::jar:2.2.1"
   }, {
     "name" : "JGit",
     "description" : "Access your Git repositories",
@@ -901,12 +901,12 @@
     "metadata" : {
       "keywords" : [ "config", "configuration", "hocon" ],
       "categories" : [ "core" ],
-      "built-with-quarkus-core" : "3.3.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.config:quarkus-config-hocon::jar:2.2.0"
+    "artifact" : "io.quarkiverse.config:quarkus-config-hocon::jar:2.2.1"
   }, {
     "name" : "Quarkus Hilla Extension",
     "description" : "A Quarkus extension to run Hilla applications on Quarkus.",
@@ -1717,12 +1717,12 @@
       "categories" : [ "core" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-config-extensions/dev/consul.html",
       "config" : [ "quarkus.consul-config." ],
-      "built-with-quarkus-core" : "3.3.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-virtual-threads" ]
     },
-    "artifact" : "io.quarkiverse.config:quarkus-config-consul::jar:2.2.0"
+    "artifact" : "io.quarkiverse.config:quarkus-config-consul::jar:2.2.1"
   }, {
     "name" : "Hibernate Types",
     "description" : "Hibernate Types",
