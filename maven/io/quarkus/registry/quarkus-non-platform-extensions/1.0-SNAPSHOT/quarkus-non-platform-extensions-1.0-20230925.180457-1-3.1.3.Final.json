@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.8.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.8.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.1.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.1.3.Final",
   "extensions" : [ {
     "name" : "Jdbi Quarkus - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -344,12 +344,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-features-metrics.html",
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.4.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-virtual-threads" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:2.4.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:2.4.1"
   }, {
     "name" : "Zanzibar Authzed",
     "description" : "Authzed Adaptor for Quarkus Zanzibar.",
@@ -403,12 +403,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-services-sts.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.4.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-virtual-threads", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:2.4.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:2.4.1"
   }, {
     "name" : "Groovy JUnit 5 for integration tests",
     "description" : "Write the server code of your integration tests with JUnit in Groovy",
@@ -469,12 +469,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-features-logging.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.4.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-virtual-threads" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:2.4.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:2.4.1"
   }, {
     "name" : "Logging Sentry",
     "description" : "Use Sentry, a self-hosted or cloud-based error monitoring solution",
@@ -589,12 +589,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-ws-security.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.4.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-virtual-threads", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-core", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:2.4.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:2.4.1"
   }, {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -966,12 +966,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "3.4.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-virtual-threads" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:2.4.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:2.4.1"
   }, {
     "name" : "Reactive HTTP and WebSocket Connector",
     "description" : "Connect to HTTP or WebSocket and expose HTTP or WebSocket endpoints for Reactive Messaging",
@@ -1182,12 +1182,12 @@
       "status" : "stable",
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-omnifaces/dev/",
       "icon-url" : "https://avatars.githubusercontent.com/u/7047175?s=200&v=4",
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.2.6.Final",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-omnifaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jaxp", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.2.1"
+    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.3.0"
   }, {
     "name" : "Authzed Client",
     "description" : "A wrapper around the authzed client",
@@ -1305,12 +1305,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-ws-rm.html",
       "status" : "experimental",
       "unlisted" : true,
-      "built-with-quarkus-core" : "3.4.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-virtual-threads", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:2.4.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:2.4.1"
   }, {
     "name" : "Freemarker",
     "description" : "Apache FreeMarker template engine to generate text output",
@@ -1610,12 +1610,12 @@
       "keywords" : [ "soap", "cxf", "services" ],
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-transports-http-hc5.html",
-      "built-with-quarkus-core" : "3.4.0",
+      "built-with-quarkus-core" : "3.4.1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-virtual-threads" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:2.4.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:2.4.1"
   }, {
     "name" : "JBeret - REST",
     "description" : "Manage JBeret Batch Applications with REST",
