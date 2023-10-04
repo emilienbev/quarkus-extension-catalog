@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.4.1:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.4.1",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.4.2:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.4.2",
   "extensions" : [ {
     "name" : "Groovy",
     "description" : "Write your services in Groovy",
