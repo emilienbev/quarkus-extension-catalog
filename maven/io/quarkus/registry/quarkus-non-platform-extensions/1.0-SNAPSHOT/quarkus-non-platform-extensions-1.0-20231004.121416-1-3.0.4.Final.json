@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.4.Final",
   "extensions" : [ {
     "name" : "Groovy",
     "description" : "Write your services in Groovy",
@@ -1208,15 +1208,17 @@
     },
     "artifact" : "io.quarkiverse.pact:quarkus-pact-provider::jar:1.1.0"
   }, {
-    "name" : "Camunda Platform Engine",
-    "description" : "Quarkus Extension for the Camunda Platform Engine",
+    "name" : "Camunda Platform 7 Engine",
+    "description" : "Quarkus Extension for the Camunda Platform 7 Engine",
     "metadata" : {
-      "keywords" : [ "camunda", "camunda-platform", "processes", "decisions", "bpmn", "dmn" ],
-      "guide" : "https://docs.camunda.org/manual/",
+      "keywords" : [ "camunda", "camunda-7", "camunda-platform-7", "processes", "decisions", "bpmn", "dmn" ],
+      "guide" : "https://docs.camunda.org/manual/latest/user-guide/quarkus-integration/",
       "categories" : [ "business-automation" ],
-      "status" : "preview"
+      "built-with-quarkus-core" : "3.2.6.Final",
+      "scm-url" : "https://github.com/camunda/camunda-bpm-platform",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.19.0"
+    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.20.0"
   }, {
     "name" : "Artemis JMS",
     "description" : "Use JMS APIs to connect to ActiveMQ Artemis via its native protocol",
