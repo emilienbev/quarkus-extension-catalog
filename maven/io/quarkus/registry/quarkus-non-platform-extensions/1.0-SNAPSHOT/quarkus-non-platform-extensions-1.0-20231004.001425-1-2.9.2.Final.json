@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.3.3:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.3.3",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Groovy",
     "description" : "Write your services in Groovy",
@@ -1518,14 +1518,14 @@
       "codestart" : {
         "name" : "quinoa",
         "languages" : [ "java", "kotlin", "scala" ],
-        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:2.2.0"
+        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:2.2.1"
       },
       "built-with-quarkus-core" : "3.2.6.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-quinoa",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:2.2.0"
+    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:2.2.1"
   }, {
     "name" : "Logging Logback",
     "description" : "logback.xml support for logback appenders",
