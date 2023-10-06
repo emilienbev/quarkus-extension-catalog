@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.11.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.11.Final",
   "extensions" : [ {
     "name" : "Groovy",
     "description" : "Write your services in Groovy",
@@ -528,12 +528,12 @@
       "keywords" : [ "santuario", "security", "xml", "xmlsec" ],
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.2.0.Final",
+      "built-with-quarkus-core" : "3.4.2",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-xmlsec",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jaxp" ]
     },
-    "artifact" : "io.quarkiverse.xmlsec:quarkus-xmlsec::jar:2.1.0"
+    "artifact" : "io.quarkiverse.xmlsec:quarkus-xmlsec::jar:2.2.0"
   }, {
     "name" : "Groovy JAXB",
     "description" : "Make your JAXB binding compatible with Groovy",
