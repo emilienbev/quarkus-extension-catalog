@@ -457,6 +457,16 @@
     },
     "artifact" : "io.quarkiverse.systemd.notify:quarkus-systemd-notify::jar:1.0.2"
   }, {
+    "name" : "Playwright",
+    "description" : "Playwright enables reliable end-to-end testing for modern web apps.",
+    "metadata" : {
+      "type" : "test",
+      "keywords" : [ "testing", "e2e", "end-to-end", "playwright" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/playwright/dev/",
+      "categories" : [ "test" ],
+      "status" : "preview"
+    }
+  }, {
     "name" : "Micrometer registry - StatsD",
     "description" : "Send metrics to a StatsD sidecar agent",
     "metadata" : {
